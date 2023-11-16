@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+figcaption {
+    display: none;
+    transition: all 0.5s;
+}
+
+.notificaciones:hover > figcaption {
+    display: block;
+    transition: all 0.5s;
+    font-size: 18px;
+    background: black;
+    color: white;
+    padding: 1rem 0.8rem;
+    width: 145px;
+    border-radius: 20px;
+}
+
+.mensajes:hover > figcaption {
+    display: block;
+    transition: all 0.5s;
+    font-size: 18px;
+    background: black;
+    color: white;
+    padding: 1rem 0.8rem;
+    width: 145px;
+    border-radius: 20px;
+}
+
+.perfil:hover > figcaption {
+    display: block;
+    transition: all 0.5s;
+    font-size: 18px;
+    background: black;
+    color: white;
+    padding: 1rem 0.8rem;
+    width: 145px;
+    border-radius: 20px;
+}
+
+.cuenta:hover > figcaption {
+    display: block;
+    transition: all 0.5s;
+    font-size: 18px;
+    background: black;
+    color: white;
+    padding: 1rem 0.8rem;
+    width: 145px;
+    border-radius: 20px;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-negro {
+    background: black;
+    color: white;
+    padding: 1.8rem 1.5rem;
+    border-radius: 100px;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.4rem 2.5rem;
+    gap: 1.4rem;
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+#icon_not {
+    width: 40px;
+}
+
+#icon_men {
+    width: 40px;
+}
+
+#icon_per {
+    width: 40px;
+}
+
+#icon_cuent {
+    width: 40px;
+}
+
+input {
+    width: 140vh;
+    background: rgb(222, 219, 219);
+    color: gray;
+    border-radius: 100px;
+    border-width: 0px;
+    padding: 20px;
+    font-size: 26px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#logo {
+    position: relative;
+    width: 40px;
+}
+
+main {
+    
+}
+
+/*.input-buscador {
+    width: 120vh;
+}
+
+.icon_bus {
+    color: #545151;
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}*/
+
